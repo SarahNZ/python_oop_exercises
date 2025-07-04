@@ -22,9 +22,9 @@ class House:
         
         return self.price > other.price
 
-home1 = House(100000)
-home2 = House(150000)
-if home1 < home2:
-    print("Home 1 is cheaper")
-if home2 > home1:
-    print("Home 2 is more expensive")
+sarah_house = House(130565)
+eva_house = House(78987451)
+if sarah_house < eva_house:
+    print("Sarah's home is cheaper")
+if eva_house > sarah_house:
+    print("Eva's home is more expensive")
